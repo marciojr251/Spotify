@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vw;
+}
+/* ------------------------------- */
+
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1155px;
+}
+.nav img{
+    width: 60px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.nav h1{
+    position: absolute;
+    color: white;
+    left: 55px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.nav ul{
+    position: absolute;
+    right: 0;
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+   
+} 
+
+.nav ul a{
+    text-decoration: none;
+}
+.m{color: white;}
+.m1{
+    color: rgb(224, 222, 222);
+}
+
+.nav ul li:hover{
+    color: rgb(107, 211, 107);
+    cursor: pointer;
+}
+/* ----------------------------- */
+
+.green{
+    background-color: #96F0B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 635px;
+}
+.content-green{
+    height: 525px;
+    width: 1130px;
+    padding-top: 60px;
+    color: #202F72;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    font-weight: bold;
+    font-size: 15px; 
+    font-family:  sans-serif;  
+}
+.content-green h1{
+    font-size: 58px;
+    width: 800px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.p2{
+    margin-top: 30px;
+    font-size: 24px;
+    width: 700px;
+    
+}
+
+.content-green button{
+    border: none;
+    color:#96F0B6 ;
+    background-color:#202F72 ;
+    padding: 12px;
+    border-radius: 100px;
+    width: 250px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    position:relative
+}
+.content-green u{
+    cursor: pointer;
+}
+
+.content-green button:hover{
+    background-color: #1A275E;
+    \top:-2px;box-shadow:0 2px 2px #666
+}
+.p3{
+    font-size: 11px;
+    width: 650px;
+    margin-top: 40px;
+    color: #202F72;
+}
+.content-green img{
+    position: absolute;
+    right: 100px;
+    height: 400px;
+    top: 200px;
+}
+/* ------------------------- */
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 253, 253);
+    height: 570px;
+}
+.content-white{
+    width: 1200px;
+}
+.content-white ul{
+    display: flex;
+    list-style: none;
+    padding-bottom:40px;
+    
+}
+.content-white h1{
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+margin-bottom: 95px;
+}
+.content-white ul img{
+  height: 150px; 
+
+}
+.content-white ul li{
+    text-align: center;
+}
+
+.content-white h2{
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    padding-top: 30px ;
+}
+.content-white p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+/* ----------------------------------- */
+.cinza{
+    background-color: #EFEFEF;
+    height: 1235.16px;
+}
+
+.content-cinza{
+
+}
+
+.content-cinza ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.content-cinza img{
+    width: 30px;
+    padding: 2px
+
+}
+
+.content-cinza p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-cinza h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px ;
+    font-size: 36px;
+}
+.content-cinza a{
+    color: black;
+}
+.all-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.plan{
+    
+    height: 875px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 255px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;;
+}
+.plan u{
+    cursor: pointer;
+}
+.pblue{
+    background-color: #2E77D0;
+    color: white;
+    font-family: 'Montserrat';
+font-family: 'Rubik', sans-serif;
+padding: 5px;
+border-radius: 5px;
+font-size: 13px;
+width: 220px;
+}
+.plan h1{
+    padding-top: 5px;
+}
+.plan hr{
+    margin-top: 65px;
+  
+}
+
+.plan ul{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+}
+.plan ul li{
+    padding: 3px;
+}
+.but{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.plan button{
+    margin-top:252px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 182px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.plan button:hover{
+    cursor: pointer;
+    background-color: #212222;
+    \top:-2px;box-shadow:0 2px 2px rgb(8, 6, 6)
+    
+}
+    
+.term{
+    font-size: 12px;
+    margin-top: 17px;
+}
+/* ---------------------- ------------------------*/
+.duo{
+    
+    height: 875px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 255px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;;
+}
+.duo u{
+    cursor: pointer;
+}
+.dblue{
+    background-color: #2E77D0;
+    color: white;
+    font-family: 'Montserrat';
+font-family: 'Rubik', sans-serif;
+padding: 5px;
+border-radius: 5px;
+font-size: 13px;
+width: 155px;
+}
+.new{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    color: #2E77D0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    width: 200px;
+}
+.duo h1{
+    padding-top: 5px;
+}
+.duo hr{
+    margin-top: 28px;
+  
+}
+
+.duo ul{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+}
+.duo ul li{
+    padding: 3px;
+}
+.but{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.duo button{
+    margin-top:183px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 182px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.duo button:hover{
+    cursor: pointer;
+    background-color: #212222;
+    \top:-2px;box-shadow:0 2px 2px rgb(8, 6, 6)
+    
+}
+    
+.term{
+    font-size: 12px;
+    margin-top: 17px;
+}
+/* _------------------------------ */
+.ter{
+    
+    height: 875px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 255px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;;
+}
+.ter u{
+    cursor: pointer;
+}
+.dblue{
+    background-color: #2E77D0;
+    color: white;
+    font-family: 'Montserrat';
+font-family: 'Rubik', sans-serif;
+padding: 5px;
+border-radius: 5px;
+font-size: 13px;
+width: 155px;
+}
+.new{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    color: #2E77D0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    width: 200px;
+}
+
+.ter h1{
+    padding-top: 5px;
+}
+.ter hr{
+    margin-top: 28px;
+  
+}
+
+.ter ul{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+}
+.ter ul li{
+    padding: 3px;
+}
+.but{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.ter button{
+    margin-top:33px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 182px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.ter button:hover{
+    cursor: pointer;
+    background-color: #212222;
+    \top:-2px;box-shadow:0 2px 2px rgb(8, 6, 6)
+    
+}
+    
+.term{
+    font-size: 12px;
+    margin-top: 17px;
+}
+
+/* --------------------------- */
+.butt{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.butt button{
+    margin-top:230px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 182px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.butt button:hover{
+    cursor: pointer;
+    background-color: #212222;
+    \top:-2px;box-shadow:0 2px 2px rgb(8, 6, 6)
+    
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: black;
+    height: 420px;
+    color: white;
+}
+.footerrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.das h2{
+   position: relative;
+    top: -87px;
+    right: 85px;
+    color: white;
+    
+}
+.das a{
+    text-decoration: none;
+}
+.das img{
+    height: 60px;
+    position:relative;
+    right: 140px;
+    top: -33px;
+}
+
+.um{
+    padding: 30px;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+    top: 15px;
+}
+.um li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.um a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.um a:hover{
+    color: #1ED74E;
+}
+.a1{
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+}
+.dois{
+    padding: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 56px;
+    right: 45px;
+   
+}
+.dois li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.dois a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.dois a:hover{
+    color: #1ED74E;
+}
+
+.tres{
+    padding: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+.tres li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.tres a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.tres a:hover{
+    color: #1ED74E;
+}
+
+.quatro img{
+    height: 45px;
+    position: relative;
+    left:115px;
+    padding: 5px;
+    top: -25px;
+}
+
+
+/* ========================= */
+.baixo{
+    background-color: black;
+    height: 110px;
+    
+}
+.baixo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 12px;
+    position: relative;
+    right: 310px;
+    top: 17px;
+    
+    
+}
+.baixo ul li{
+    padding: 10px;
+    color: rgb(165, 164, 164);
+    
+}
+.baixo ul li:hover{color:#0ED74E ;}
+.baixo a{
+    text-decoration: none;
+}
+.baixo h4{
+    position: relative;
+    color: white;
+    top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ @media screen and (max-width: 415px) {
+.white{display:inline;}
+.content-white{
+    max-width: 414px;
+    height: 650px;
+}
+.content-white h1{
+    position: relative;
+   top: 35px;
+    font-size: 21px;
+}
+.content-white ul{
+    display: inline;
+    
+}
+.content-white li img{
+    height: 85px;
+    position: absolute;
+    left: 35px;
+    padding: 15px;
+    
+}
+.content-white li{
+    position: relative;
+    padding: 25px;
+    top: -75px;
+    
+}
+.content-white h2{
+    position: relative;
+    text-align: left;
+    left: 120px;
+    font-size: 16px;
+   max-width: 200px;
+}
+.content-white p{
+    position: relative;
+    left: 120px;
+    text-align: left;
+    font-size: 13px;
+}
+
+/* ================================== */
+
+.cinza{height: 1200px;
+    max-width: 414px;
+    }
+.content-cinza{
+    
+    max-width: 414px;
+}
+.all-plan{
+    display: inline-block;
+}
+.content-cinza h1{
+    font-size: 22px;
+    padding: 30px;
+}
+.content-cinza p{
+    position: relative;
+    font-size: 12px;
+    max-width: 315px;
+    text-align: center;
+    left: 50px;
+    top: -7px;
+}
+.content-cinza img{
+    height: 15px;
+    padding: 0px;
+}
+.content-cinza a{
+    text-align: center;
+}
